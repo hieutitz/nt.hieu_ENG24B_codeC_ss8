@@ -2,11 +2,10 @@
 
 int main() {
     int arr[] = {1, 5, 2, 3, 23, 5, 1, 2};
-    int size = sizeof(arr) / sizeof(arr[0]);
     int maxCount = 0, soxuat_hien_nhieu_nhat;
-    for (int i = 0; i < size; i++) {
+    for (int i = 0; i < 8; i++) {
         int count = 0;
-        for (int j = 0; j < size; j++) {
+        for (int j = 0; j < 8; j++) {
             if (arr[i] == arr[j]) {
                 count++;
             }
